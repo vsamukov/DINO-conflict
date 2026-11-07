@@ -1,0 +1,6 @@
+{
+  "name": "Dino Conflict: Giant Tail vs Egg Bandit",
+  "description": "An action-packed kids dinosaur game. Defend the nest with massive tail swipes as the Giant Titan, or sneak and sprint to steal eggs as the agile Raptor!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

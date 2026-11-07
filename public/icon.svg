@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="50%" stop-color="#451a03"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <radialGradient id="eggGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#facc15"/>
+      <stop offset="85%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </radialGradient>
+    <linearGradient id="tailGrad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular background badge -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  <rect width="496" height="496" x="8" y="8" rx="120" fill="none" stroke="#f59e0b" stroke-width="8" opacity="0.6"/>
+
+  <!-- Giant Sauropod Tail Swirl -->
+  <path d="M 80 340 C 90 200, 220 100, 360 130 C 440 150, 480 230, 430 300 C 390 350, 300 350, 260 300 C 240 270, 260 230, 290 220" 
+        fill="none" stroke="url(#tailGrad)" stroke-width="48" stroke-linecap="round"/>
+  
+  <!-- Tail Spines -->
+  <polygon points="340,110 355,75 370,112" fill="#f59e0b" stroke="#78350f" stroke-width="4"/>
+  <polygon points="260,118 275,85 290,122" fill="#f59e0b" stroke="#78350f" stroke-width="4"/>
+  <polygon points="180,150 190,120 210,156" fill="#f59e0b" stroke="#78350f" stroke-width="4"/>
+  <polygon points="430,200 465,190 440,225" fill="#f59e0b" stroke="#78350f" stroke-width="4"/>
+
+  <!-- Spiky Club Tip -->
+  <circle cx="290" cy="220" r="34" fill="#f59e0b" stroke="#78350f" stroke-width="6"/>
+  <polygon points="290,175 298,195 282,195" fill="#ef4444"/>
+  <polygon points="335,220 315,228 315,212" fill="#ef4444"/>
+  <polygon points="290,265 282,245 298,245" fill="#ef4444"/>
+  <polygon points="245,220 265,212 265,228" fill="#ef4444"/>
+
+  <!-- Speckled Golden Nest Egg -->
+  <ellipse cx="256" cy="380" rx="60" ry="80" fill="url(#eggGrad)" stroke="#78350f" stroke-width="8"/>
+  <ellipse cx="236" cy="350" rx="10" ry="14" fill="#ffffff" opacity="0.75"/>
+  <!-- Egg spots -->
+  <circle cx="275" cy="370" r="8" fill="#c2410c" opacity="0.8"/>
+  <circle cx="240" cy="410" r="10" fill="#c2410c" opacity="0.8"/>
+  <circle cx="280" cy="415" r="7" fill="#c2410c" opacity="0.8"/>
+
+  <!-- Twig Nest Base -->
+  <ellipse cx="256" cy="445" rx="110" ry="32" fill="#78350f"/>
+  <ellipse cx="256" cy="445" rx="90" ry="22" fill="#451a03"/>
+  <line x1="160" y1="440" x2="135" y2="455" stroke="#92400e" stroke-width="8" stroke-linecap="round"/>
+  <line x1="350" y1="440" x2="380" y2="452" stroke="#92400e" stroke-width="8" stroke-linecap="round"/>
+  <line x1="200" y1="465" x2="180" y2="480" stroke="#92400e" stroke-width="8" stroke-linecap="round"/>
+  <line x1="310" y1="465" x2="335" y2="478" stroke="#92400e" stroke-width="8" stroke-linecap="round"/>
+</svg>

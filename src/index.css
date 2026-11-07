@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+    touch-action: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    overscroll-behavior: none;
+  }
+}
+
+.font-display {
+  font-family: 'Fredoka', 'Outfit', system-ui, sans-serif;
+}
+
+/* Ensure canvas takes exact layout without blurring */
+canvas {
+  image-rendering: auto;
+}
